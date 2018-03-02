@@ -9,6 +9,7 @@ Android(4.2.2)
 - `flexbox`子元素使用`float`会导致元素隐藏
 - 默认不支持多媒体自动播放，需要通过[配置开启](https://developer.android.com/reference/android/webkit/WebSettings.html#setMediaPlaybackRequiresUserGesture(boolean))
 - 即使通过配置支持了多媒体自动播放，也不支持base64格式的资源自动播放
+- animation, transition不支持自定义的`time-function` - `cubic-bezire`
 
 iOS
 ---
